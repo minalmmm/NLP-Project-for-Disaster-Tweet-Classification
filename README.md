@@ -54,3 +54,8 @@ The **pipeline** for this project involves several key stages from data processi
    - **Images for Disaster and Non-Disaster Predictions**:
      - If the tweet is classified as **Disaster**, an image related to disaster is displayed.
      - If the tweet is classified as **Not Disaster**, an image showing a peaceful or non-disaster context is displayed.
+     - ### Output Display
+![Output Image 1](https://github.com/minalmmm/NLP-Project-for-Disaster-Tweet-Classification/blob/main/Images/img1.png)  
+![Output Image 2](https://github.com/minalmmm/NLP-Project-for-Disaster-Tweet-Classification/blob/main/Images/img2.png)  
+![Output Image 3](https://github.com/minalmmm/NLP-Project-for-Disaster-Tweet-Classification/blob/main/Images/img3.png)
+
