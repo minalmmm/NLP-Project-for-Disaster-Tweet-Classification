@@ -1,24 +1,13 @@
 # NLP Project for Disaster Tweet Classification
 
-This project classifies tweets into **Disaster** or **Not Disaster** using a **Logistic Regression** model. The app allows users to input a tweet, and it classifies it based on the content. The app displays relevant images depending on whether the tweet is classified as **Disaster** or **Not Disaster**.
-
+This project classifies tweets into **Disaster** or **Not Disaster** using a **Logistic Regression** model. The app allows users to input a tweet, and it classifies it based on the content. 
 ## Project Description
 
 The goal of this project is to classify tweets as either **Disaster** or **Not Disaster** based on their content using **Natural Language Processing (NLP)** techniques. The app uses the following models:
 - **Logistic Regression (ML model)**: For classifying tweets.
 - **Artificial Neural Network (ANN)**: This model is also available but we focus on the **Logistic Regression** model in this example.
 
-## Features
-
-- **Banner Image**: Displays a banner image on the homepage.
-- **Text Input**: Users can enter a tweet for classification.
-- **Image Display**: Based on the classification, the app will display the appropriate image.
-  - If classified as **Disaster**, an image related to disaster is shown.
-  - If classified as **Not Disaster**, a different image is displayed.
-
 ## Pipeline
-
-The **pipeline** for this project involves several key stages from data processing to model deployment. Below is the step-by-step breakdown of the pipeline:
 
 ### 1. **Data Collection**
    - The dataset used in this project contains tweets labeled as either **Disaster** or **Not Disaster**.
@@ -54,7 +43,7 @@ The **pipeline** for this project involves several key stages from data processi
    - **Images for Disaster and Non-Disaster Predictions**:
      - If the tweet is classified as **Disaster**, an image related to disaster is displayed.
      - If the tweet is classified as **Not Disaster**, an image showing a peaceful or non-disaster context is displayed.
-     - ### Output Display
+### 7. **Output Display**
 ![Output Image 1](https://github.com/minalmmm/NLP-Project-for-Disaster-Tweet-Classification/blob/main/Images/img1.png)  
 ![Output Image 2](https://github.com/minalmmm/NLP-Project-for-Disaster-Tweet-Classification/blob/main/Images/img2.png)  
 ![Output Image 3](https://github.com/minalmmm/NLP-Project-for-Disaster-Tweet-Classification/blob/main/Images/img3.png)
